@@ -1,0 +1,23 @@
+{
+  "name": "quickbooks-online-v3_51-types",
+  "version": "0.1.0",
+  "description": "generated template classes for xsd",
+  "main": "index.js",
+  "scripts": {
+    "ts-gen": "ts-node ./src/generate.ts",
+    "makelib": "tsc -p ./src/generated",
+    "setup": "npm install"
+  },
+  "repository": {
+    "type": "github",
+    "url": "https://github.com/mitchellsullivan/quickbooks-online-v3_51-types"
+  },
+  "author": "?",
+  "license": "The Unlicense",
+  "dependencies": {
+    "ts-loader": "7.0.5",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.5",
+    "xsd2ts": "0.3.6"
+  }
+}
